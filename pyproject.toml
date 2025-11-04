@@ -1,0 +1,10 @@
+﻿[project]
+name = 'font-specimen'
+version = '0.1.0'
+description = 'Download woff2 from page, parse cmap and render specimen'
+authors = ['You <you@example.com>']
+dependencies = [
+  'requests >=2.28',
+  'fonttools[woff2] >=4.40',
+  'brotli'
+]
